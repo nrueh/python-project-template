@@ -20,12 +20,10 @@ def get_parser() -> ArgumentParser:
     """
     parser = ArgumentParser(
         prog="fillname",
-        description=dedent(
-            """\
+        description=dedent("""\
             fillname
             filldescription
-            """
-        ),
+            """),
     )
     levels = [
         ("error", logging.ERROR),
